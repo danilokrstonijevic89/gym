@@ -107,13 +107,13 @@
 }
 
 .headerMiddle a{
-   color: #dedede; 
-   text-decoration: none;
-   margin-left: 5px;
+    color: #dedede; 
+    text-decoration: none;
+    margin-left: 5px;
 }
 .headerMiddle a:hover{
-   color: #10bcf4; 
-   
+    color: #10bcf4; 
+
 }
 .headerMiddle .fa-phone{
     color: #10bcf4;
@@ -160,20 +160,64 @@
 
 /* about me */
 .aboutMe{
-    background-image: url('style/aboutMe.png')
+    background-image: url('style/aboutMe.png');
+    height: 150px;
+
 }
 .aboutMe h1{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 22px;
+    margin-top: 50px
+}
+.aboutMe h1:hover{
+    transform: scale(1.3);
 }
 .aboutMe a{
     color: #10bcf4;
     text-decoration: none;
+    font-size: 11px;
 }
 .aboutMe a:hover{
     color: white;
 }
-
-
 /* about me */
+
+/* your body */
+
+.yourBody img{
+    width: 20%;
+}
+.yourBody h1{
+    font-size: 14px;
+    margin-top: 120px;
+        
+}
+.yourBody p{
+    font-size: 10px;
+}
+.yourBody a{
+    color: #10bcf4;
+    text-decoration: none;
+}
+.yourBody a:hover {
+    margin-left: 13px;
+    color: orange;
+}
+
+
+/* your body */
+
+/* zumba */
+.zumba{
+    background: #f7f7f7;
+}
+
+.boxingWorkout{
+    width: 350px;
+    height: 250px;
+    background: red;
+}
+
+
+/* zumba */
