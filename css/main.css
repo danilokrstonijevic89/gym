@@ -1,4 +1,4 @@
-
+/************** HEADER START *****************/
 
 /* header top */
 
@@ -158,6 +158,138 @@
 }
 /* header middle */
 
+/************** HEADER END *****************/
+
+
+/************** FOOTER START *****************/
+
+.footerTop{
+    background:#252f38;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+footer p{
+    padding: 10px;
+    margin-bottom: -10px;
+}
+footer article{
+    margin-bottom: 30px;
+}
+footer .form-control {
+    display: block;
+    width: 100%;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #435a6f;
+    border-radius: 0px;
+
+}
+footer .btn {
+    border-radius: 0px;
+    color: #fff;
+    border: 1px solid #435a6f;
+}
+footer .btn-default {
+    background: #10bcf4;
+    border: 1px solid #435a6f;
+    border-left: none;
+    text-shadow: none;
+}
+footer .btn-default:hover{
+    background: #fff;
+}
+footer .form-control:focus {
+    box-shadow: none;
+}
+footer .input-group {
+    padding: 10px;
+}
+footer .mobilePhone{
+    color:#198eb8;
+}
+footer .mailTo{
+    color:#198eb8;
+}
+.footerBottom{
+    background: #202a32;
+    padding: 10px;
+}
+.footerBottom p{
+    color:#fff;
+}
+.footerBottom span{
+    color:#198eb8;
+}
+footer .list-inline  a{
+    color:#435a6f;
+    border:1px solid #435a6f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    transition: .6s;
+    margin-top: 20px;
+}
+footer .list-inline  li a .fa{
+    line-height: 30px;
+}
+footer .socialNetworks{
+    padding: 10px;
+}
+footer .list-inline  a:hover{
+    transform: rotate(720deg);
+}
+footer a.face:hover{
+    background: #3b5998; 
+}
+footer a.face:hover .fa-facebook{
+    color:#fff !important;
+}
+footer a.twitter:hover{
+    background: #55acee; 
+}
+footer a.twitter:hover .fa-twitter{
+    color:#fff !important;
+}
+footer a.tumblr:hover{
+    background: #32506d; 
+}
+footer a.tumblr:hover .fa-tumblr{
+    color:#fff !important;
+}
+footer a.instagram:hover{
+    background: url(style/Instagram.png) no-repeat center;
+    background-size: cover;
+}
+footer a.instagram:hover .fa-instagram{
+    color:#fff !important;
+}
+footer a.linkedin:hover{
+    background: #007bb6; 
+}
+footer a.linkedin:hover .fa-linkedin{
+    color:#fff !important;
+}
+
+footer li a:hover{
+    background: #fff;
+}
+footer li a.in:hover{
+    background: #fff !important;
+}
+footer .list-inline > li {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*********************** FOOTER END *************************/
+
 /* about me */
 .aboutMe{
     background-image: url('style/aboutMe.png');
@@ -191,7 +323,7 @@
 .yourBody h1{
     font-size: 14px;
     margin-top: 120px;
-        
+
 }
 .yourBody p{
     font-size: 10px;
@@ -208,16 +340,87 @@
 
 /* your body */
 
-/* zumba */
-.zumba{
+
+/* classes */
+.classes{
     background: #f7f7f7;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.classes .workout{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+}
+.classes .workout article{
+    background: url(style/boxingImage.jpg) no-repeat center;
+    background-size: cover;
+    border:5px solid #fff;
+    border-radius: 5px;
+    height: 200px;
+    position: relative;
+}
+.classes .workout article.crossfit{
+    background: url(style/crossfitImage.jpg) no-repeat center;
+    background-size: cover;
+}
+.classes .workout article.aerobic{
+    background: url(style/aerobicImage.jpg) no-repeat center;
+    background-size: cover;
+}
+.classes .workout article.yoga{
+    background: url(style/yogaImage.jpg) no-repeat center;
+    background-size: cover;
+}
+.classes .workout article.zumba{
+    background: url(style/zumbaImage.jpg) no-repeat center;
+    background-size: cover;
+}
+.classes .workout article img{
+    position: absolute;
+    top:40px;
+    right:0;
+    left:0;
+}
+.classes .workout article.crossfit img{
+    position: absolute;
+    top:70px;
+    right:0;
+    left:0;
+}
+.classes .workout > a{
+    display: block;
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.classes .workout article p{
+    position: absolute;
+    top:120px;
+    right:0;
+    left:0;
 }
 
-.boxingWorkout{
-    width: 350px;
-    height: 250px;
-    background: red;
+.classes .workout article .hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0 ,0 , 0.6);
+    transition: 1s all;
+}
+.classes .workout:hover .hover{
+    display: none;
+}
+.classes .workout p{
+    color:#fff;
+    font-weight: bold;
+    font-size: 19px;
 }
 
+/* classes */
 
-/* zumba */
