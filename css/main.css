@@ -168,10 +168,14 @@
     color: #fff;
     padding-bottom: 50px;
 }
-
+footer h4{
+    margin-left: 10px;
+    margin-top: 50px;
+}
 footer p{
     padding: 10px;
     margin-bottom: -10px;
+    font-family: 'Montserrat', sans-serif;
 }
 footer article{
     margin-bottom: 30px;
@@ -202,6 +206,8 @@ footer .btn-default {
 }
 footer .btn-default:hover{
     background: #fff;
+    color: #198eb8;
+    transform: scale(1.3);
 }
 footer .form-control:focus {
     box-shadow: none;
@@ -321,12 +327,12 @@ footer .list-inline > li {
     width: 20%;
 }
 .yourBody h1{
-    font-size: 14px;
+    font-size: 17px;
     margin-top: 120px;
 
 }
 .yourBody p{
-    font-size: 10px;
+    font-size: 12px;
 }
 .yourBody a{
     color: #10bcf4;
@@ -423,4 +429,72 @@ footer .list-inline > li {
 }
 
 /* classes */
+/******************** INDEX STRANA ***************/
+/* SLIDER NA INDEX STRANI */
+.slider{
+    background-image: url(style/slide1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.description .get{
+    color: #10bcf4;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.description h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.description{
+    margin-top: 200px;
+}
+.carousel-control.left{
+   background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-control.right{
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.container-fluid {
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -75px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
+    margin-left: -75px;
+}
+/* SLIDER NA INDEX STRANI */
+/* events */
+.march {
+    background: #10bcf4;
+    width: 40%;
+    margin-left: 120px;
+}
+.goal{
+    background-image: url(style/aerobicImage.jpg);
+    background-color: rgba(0,0,0,0.5);
+      height: 100%;
+      width: 100%;
+      z-index: 1000;
+}
+
+.events p{
+    font-family: Myriad Pro;
+    color: white;
+    
+}
+.goal p:first-of-type{
+    color: #10bcf4;
+}
+
+
+/* events */
+/******************** INDEX STRANA ***************/
 

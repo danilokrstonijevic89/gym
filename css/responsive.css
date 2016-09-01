@@ -75,6 +75,42 @@
         width: 20%;  
     }
     /*classes*/
+
+
+    /* SLIDER NA INDEX STRANI */
+
+
+    .description .get{
+        font-size: 20px;
+    }
+    .description h1{
+        font-size: 60px;
+        color: white;
+    }
+
+
+
+    /* SLIDER NA INDEX STRANI */
+    
+    /********* INDEX *********/
+    
+    .march {
+    background: #10bcf4;
+    width: 250px;
+    margin-left: 120px;
+    height: 160px;
+}
+.march .center-block{
+    margin-top: 30px;
+}
+
+
+    
+    
+    
+    
+    
+      /********* INDEX *********/
 }
 
 
